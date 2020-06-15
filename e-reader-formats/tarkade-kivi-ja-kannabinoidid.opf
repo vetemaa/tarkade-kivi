@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">4</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">0fad71e6-9a1b-4123-87c3-88745afe3424</dc:identifier>
+        <dc:title>Tarkade kivi ja kannabinoidid</dc:title>
+        <dc:creator opf:file-as="Vetemaa, Markus" opf:role="aut">Markus Vetemaa</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.18.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2017-09-30T21:00:00+00:00</dc:date>
+        <dc:publisher>Punased Palmid</dc:publisher>
+        <dc:language>est</dc:language>
+        <meta content="{&quot;Markus Vetemaa&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="0101-01-01T00:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Tarkade kivi ja kannabinoidid" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="Tarkade kivi ja kannabinoidid - Markus Vetemaa.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
