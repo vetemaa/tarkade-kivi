@@ -31,7 +31,7 @@ a {
 }
 
 #container > div {
-  padding: 60px;
+  padding: 40px 60px;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -78,6 +78,23 @@ a {
 .large {
   padding: 14px 32px;
   font-size: 20px;
+}
+
+#cookieNotice {
+  /* line-height: 0 !important; */
+  padding: 6px !important;
+}
+
+.confirm {
+  border: solid 1px #fff;
+  border-radius: 3px;
+  padding: 5px 10px !important;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.confirm:hover {
+  background-color: #666;
 }
 
 h1,
