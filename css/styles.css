@@ -1,0 +1,102 @@
+html {
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Inconsolata", monospace;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#container {
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container > div {
+  padding: 60px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#left {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+#right {
+  text-align: justify;
+}
+
+#files {
+}
+
+#copyright {
+  margin-top: 40px;
+  font-size: 17px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.file {
+  font-size: 18px;
+  font-weight: 700;
+  display: inline;
+  border: solid 1px #fff;
+  border-radius: 4px;
+  padding: 10px 24px;
+  margin: 6px;
+}
+
+.file:hover {
+  background-color: #666;
+}
+
+.large {
+  padding: 14px 32px;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 48px;
+  white-space: nowrap;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 14px;
+  margin-top: 80px;
+}
