@@ -28,8 +28,6 @@
       href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Roboto&display=swap"
       rel="stylesheet"
     />
-
-    <script src="/cookie.notice.js"></script>
   </head>
   <body>
     <div id="container">
@@ -57,7 +55,7 @@
               <a
                 href="ebook-formats/tarkade-kivi-ja-kannabinoidid.mobi"
                 class="file large"
-                onclick="downloadClick()"
+                onclick="downloadClick(this)"
                 download
                 >MOBI</a
               >
@@ -66,28 +64,28 @@
               <a
                 href="ebook-formats/tarkade-kivi-ja-kannabinoidid.pdf"
                 class="file"
-                onclick="downloadClick()"
+                onclick="downloadClick(this)"
                 download
                 >PDF</a
               >
               <a
                 href="ebook-formats/tarkade-kivi-ja-kannabinoidid.azw3"
                 class="file"
-                onclick="downloadClick()"
+                onclick="downloadClick(this)"
                 download
                 >AZW</a
               >
               <a
                 href="ebook-formats/tarkade-kivi-ja-kannabinoidid.lrf"
                 class="file"
-                onclick="downloadClick()"
+                onclick="downloadClick(this)"
                 download
                 >LRF</a
               >
               <a
                 href="ebook-formats/tarkade-kivi-ja-kannabinoidid.fb2"
                 class="file"
-                onclick="downloadClick()"
+                onclick="downloadClick(this)"
                 download
                 >FB2</a
               >
@@ -127,6 +125,7 @@
         </p>
       </div>
     </div>
+    <script src="cookie.notice.js"></script>
     <script type="text/javascript">
       function downloadClick(e) {
         ga("send", "event", {
@@ -134,8 +133,6 @@
           eventAction: "click",
           eventLabel: e.textContent,
         });
-        console.log("click");
-        // console.log(e.textContent);
       }
     </script>
   </body>
