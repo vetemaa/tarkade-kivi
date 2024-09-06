@@ -1,2 +1,2 @@
 # tarkade-kivi
-Tarkade kivi ja kannabinoidid veebileht
+Tarkade kivi ja kannabinoidid veebileht e-raamatu allalaadimiseks
