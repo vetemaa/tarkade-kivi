@@ -3,16 +3,15 @@
   <desc id="description">Markus Vetemaa e-raamat</desc>
   <defs>
     <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#07111f" />
-      <stop offset="52%" stop-color="#16335a" />
-      <stop offset="100%" stop-color="#06101d" />
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="55%" stop-color="#1b1b1b" />
+      <stop offset="100%" stop-color="#000000" />
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#night)" />
-  <rect x="52" y="52" width="1096" height="526" fill="none" stroke="#9bbd3a" stroke-opacity=".34" stroke-width="2" />
-  <text x="600" y="178" fill="#ffffff" font-family="Georgia, serif" font-size="30" letter-spacing="10" text-anchor="middle">MARKUS VETEMAA</text>
-  <line x1="420" y1="236" x2="780" y2="236" stroke="#ffffff" stroke-opacity=".35" />
-  <text x="600" y="335" fill="#a8c944" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="300" text-anchor="middle">Tarkade kivi</text>
-  <text x="600" y="425" fill="#a8c944" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="300" text-anchor="middle">ja kannabinoidid</text>
-  <text x="600" y="508" fill="#d8e3ef" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="3" text-anchor="middle">TASUTA E-RAAMAT</text>
+  <rect x="52" y="52" width="1096" height="526" fill="none" stroke="#ffffff" stroke-opacity=".28" />
+  <text x="600" y="172" fill="#ffffff" font-family="Menlo, 'Courier New', monospace" font-size="34" font-weight="500" text-anchor="middle">Markus Vetemaa</text>
+  <text x="600" y="315" fill="#ffffff" font-family="Menlo, 'Courier New', monospace" font-size="76" font-weight="500" text-anchor="middle">Tarkade kivi</text>
+  <text x="600" y="405" fill="#ffffff" font-family="Menlo, 'Courier New', monospace" font-size="76" font-weight="500" text-anchor="middle">ja kannabinoidid</text>
+  <text x="600" y="505" fill="#ffffff" fill-opacity=".72" font-family="Menlo, 'Courier New', monospace" font-size="26" font-weight="500" text-anchor="middle">e-raamatu failid: EPUB · PDF · MOBI</text>
 </svg>
