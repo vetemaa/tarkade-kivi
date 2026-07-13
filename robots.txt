@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vetemaa.github.io/tarkade-kivi/sitemap.xml
